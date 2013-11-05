@@ -7,6 +7,15 @@
     <!-- -*- extra stuff goes here -*- -->
 
     <plone:behavior
+        title="Subject Expertise"
+        description="Provides subject_expertise field"
+        provides=".subjectexpertise.ISubjectExpertise"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".subjectexpertise.ISubjectExpertise"
+        />
+
+
+    <plone:behavior
         title="ILO Theme"
         description="Description of the Example behavior"
         provides=".ilotheme.IILOTheme"
