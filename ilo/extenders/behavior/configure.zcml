@@ -7,7 +7,16 @@
     <!-- -*- extra stuff goes here -*- -->
 
     <plone:behavior
-        title="Subject Expertise"
+        title="ILO Regions"
+        description="Selection list for ILO Regions"
+        provides=".iloregions.IILORegions"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".iloregions.IILORegions"
+        />
+
+
+    <plone:behavior
+        title="ILO Subject Expertise"
         description="Provides subject_expertise field"
         provides=".subjectexpertise.ISubjectExpertise"
         for="plone.dexterity.interfaces.IDexterityContent"

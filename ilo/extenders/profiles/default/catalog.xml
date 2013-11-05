@@ -6,4 +6,7 @@
     <index name="ilo_subject_expertise" meta_type="KeywordIndex">
         <indexed_attr value="ilo_subject_expertise"/>
     </index>
+    <index name="ilo_regions" meta_type="KeywordIndex">
+        <indexed_attr value="ilo_regions"/>
+    </index>
 </object>
