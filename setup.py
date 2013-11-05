@@ -34,6 +34,7 @@ setup(name='ilo.extenders',
           'plone.app.multilingual',
           'plone.multilingualbehavior',
           'plone.app.versioningbehavior',
+          'ilo.vocabularies',
           # -*- Extra requirements: -*-
       ],
       extras_require={

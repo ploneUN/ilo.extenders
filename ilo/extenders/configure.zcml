@@ -20,6 +20,14 @@
         name="ilo.extenders"
         directory="static"/>
 
+    <class class="Products.ATContentTypes.content.file.ATFile">
+       <implements interface="ilo.extenders.interfaces.IILOThemeEnabled"/>
+    </class>
+
+    <class class="plone.app.blob.content.ATBlob">
+       <implements interface="ilo.extenders.interfaces.IILOThemeEnabled"/>
+    </class>
+
     <!-- -*- extra stuff goes here -*- -->
 
 </configure>

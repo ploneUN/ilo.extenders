@@ -6,4 +6,13 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+    <plone:behavior
+        title="ILO Theme"
+        description="Description of the Example behavior"
+        provides=".ilotheme.IILOTheme"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".ilotheme.IILOTheme"
+        />
+
+
 </configure>
