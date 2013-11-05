@@ -21,7 +21,7 @@ class ISubjectExpertise(form.Schema):
     ilo_subject_expertise = schema.List(
         title=u'Subject Expertise',
         required=False,
-        value_type = schema.Choice(vocabulary='ilo.vocabularies.subject_expertise')
+        value_type = schema.Choice(vocabulary='ilo.vocabulary.subject_expertise')
     )
 
 alsoProvides(ISubjectExpertise,IFormFieldProvider)
