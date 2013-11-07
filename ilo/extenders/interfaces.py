@@ -5,3 +5,6 @@ class IProductSpecific(Interface):
 
 class IILOThemeEnabled(Interface):
     pass
+
+class IILORegionsEnabled(Interface):
+    pass
