@@ -3,10 +3,13 @@
     <index name="ilo_themes" meta_type="KeywordIndex">
         <indexed_attr value="ilo_themes"/>
     </index>
+    <column value="ilo_themes"/>
     <index name="ilo_subject_expertise" meta_type="KeywordIndex">
         <indexed_attr value="ilo_subject_expertise"/>
     </index>
+    <column value="ilo_subject_expertise"/>
     <index name="ilo_regions" meta_type="KeywordIndex">
         <indexed_attr value="ilo_regions"/>
     </index>
+    <column value="ilo_regions"/>
 </object>
