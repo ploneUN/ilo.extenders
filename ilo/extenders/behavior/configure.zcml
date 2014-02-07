@@ -7,6 +7,15 @@
     <!-- -*- extra stuff goes here -*- -->
 
     <plone:behavior
+        title="Eval Theme"
+        description="Description of the Example behavior"
+        provides=".evaltheme.IEvalTheme"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".evaltheme.IEvalTheme"
+        />
+
+
+    <plone:behavior
         title="ILO Regions"
         description="Selection list for ILO Regions"
         provides=".iloregions.IILORegions"
