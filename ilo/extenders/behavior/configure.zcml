@@ -8,7 +8,7 @@
 
     <plone:behavior
         title="Eval Theme"
-        description="Description of the Example behavior"
+        description="Selection list for Eval Themes"
         provides=".evaltheme.IEvalTheme"
         for="plone.dexterity.interfaces.IDexterityContent"
         marker=".evaltheme.IEvalTheme"
