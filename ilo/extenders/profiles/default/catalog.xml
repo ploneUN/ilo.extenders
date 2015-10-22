@@ -12,4 +12,8 @@
         <indexed_attr value="ilo_regions"/>
     </index>
     <column value="ilo_regions"/>
+    <index name="eval_theme" meta_type="KeywordIndex">
+        <indexed_attr value="eval_theme"/>
+    </index>
+    <column value="eval_theme"/>
 </object>
