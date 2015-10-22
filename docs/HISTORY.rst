@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.0a9.dev0 (unreleased)
+--------------------
+
+- added new keywordindex
+
+
 1.0.0a8 (unreleased)
 --------------------
 
