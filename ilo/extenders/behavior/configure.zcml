@@ -40,6 +40,14 @@
         for="plone.dexterity.interfaces.IDexterityContent"
         marker=".ilotheme.IILOTheme"
         />
+    
+    <plone:behavior
+        title="EVAL Additional Details"
+        description=""
+        provides=".evalworkdetails.IEvalWorkDetails"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".evalworkdetails.IEvalWorkDetails"
+        />
 
 
 </configure>
