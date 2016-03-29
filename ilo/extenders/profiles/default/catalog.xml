@@ -16,4 +16,8 @@
         <indexed_attr value="eval_theme"/>
     </index>
     <column value="eval_theme"/>
+    <index name="eval_work_details" meta_type="KeywordIndex">
+        <indexed_attr value="eval_work_details"/>
+    </index>
+    <column value="eval_work_details"/>
 </object>
