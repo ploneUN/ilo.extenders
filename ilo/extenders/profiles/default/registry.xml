@@ -8,7 +8,7 @@
     <value key="operations">
         <element>plone.app.querystring.operation.selection.is</element>
     </value>
-    <value key="vocabulary">ilo.extenders.iloregions</value>
+    <value key="vocabulary">ilo.vocabulary.regions</value>
     <value key="group">Metadata</value>
   </records>
 </registry>
