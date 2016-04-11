@@ -41,13 +41,13 @@
         marker=".ilotheme.IILOTheme"
         />
     
-    <plone:behavior
+    <!-- <plone:behavior
         title="EVAL Additional Details"
         description=""
         provides=".evalworkdetails.IEvalWorkDetails"
         for="plone.dexterity.interfaces.IDexterityContent"
         marker=".evalworkdetails.IEvalWorkDetails"
-        />
+        /> -->
 
 
 </configure>
