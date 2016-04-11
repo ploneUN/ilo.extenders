@@ -48,6 +48,14 @@
         for="plone.dexterity.interfaces.IDexterityContent"
         marker=".evalworkdetails.IEvalWorkDetails"
         /> -->
+    
+    <plone:behavior
+        title="ILO Offices"
+        description=""
+        provides=".ilooffices.IILOOffices"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".ilooffices.IILOOffices"
+        />
 
 
 </configure>
