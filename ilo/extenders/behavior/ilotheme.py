@@ -21,6 +21,12 @@ class IILOTheme(form.Schema):
         required=False,
         value_type=schema.Choice(vocabulary=u'ilo.vocabulary.themes')
     )
+    
+    theme_other =  schema.TextLine(
+        title = _(u'Theme (Other)'),
+        description = _(u'If Other is selected, please fill in this field.'),
+        required = False,
+    )
 
     # -*- Your Zope schema definitions here ... -*-
 
