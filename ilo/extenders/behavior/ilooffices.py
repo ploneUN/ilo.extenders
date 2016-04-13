@@ -22,11 +22,6 @@ class IILOOffices(form.Schema):
         value_type=schema.Choice(vocabulary=u'ilo.vocabulary.offices')
     )
     
-    mission_location_other = schema.TextLine(
-        title = _(u'Other Regions'),
-        description = _(u'If Other Regions was selected, please specify country location.'),
-        required = False,
-    )
 
 
     # -*- Your Zope schema definitions here ... -*-
