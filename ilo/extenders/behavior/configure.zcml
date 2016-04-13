@@ -56,6 +56,14 @@
         for="plone.dexterity.interfaces.IDexterityContent"
         marker=".ilooffices.IILOOffices"
         />
+    
+    <plone:behavior
+        title="ILO Countries"
+        description=""
+        provides=".ilocountries.IILOCountries"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".ilocountries.IILOCountries"
+        />
 
 
 </configure>
