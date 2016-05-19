@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.0a9.dev1'
+version = '1.0.0a9'
 
 setup(name='ilo.extenders',
       version=version,

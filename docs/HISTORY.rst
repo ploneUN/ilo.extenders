@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.0a9
+------------
+release for production
+
 1.0.0a9.dev1
 --------------------
 removed eval working details
